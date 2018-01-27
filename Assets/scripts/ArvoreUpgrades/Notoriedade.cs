@@ -9,6 +9,7 @@ public class Notoriedade : MonoBehaviour {
 
 	public int atk;
 	public int notoriety;
+    public GameObject enemy;
 
 	// Use this for initialization
 	void Awake () {
@@ -21,5 +22,6 @@ public class Notoriedade : MonoBehaviour {
 
 		meme.GetComponent<MemeAtributtes> ().atk += atk;
 		manager.notoriety += notoriety;
+        enemy.GetComponent<EnemyController>().go = true;
 	}
 }

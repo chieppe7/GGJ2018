@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 74131b1731923d94d8b4a509b5f36b8b
+timeCreated: 1517062349
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Africa
+    100002: AmericaNorth
+    100004: AmericaSouth
+    100006: AmericaSouth.001
+    100008: AmericaSouth.002
+    100010: AmericaSouth.003
+    100012: AmericaSouth.004
+    100014: AmericaSouth.005
+    100016: AmericaSouth.006
+    100018: Circle
+    100020: //RootNode
+    100022: mesh_0
+    100024: mesh_0.001
+    100026: mesh_0.002
+    100028: mesh_0.003
+    100030: trtl_iris
+    400000: Africa
+    400002: AmericaNorth
+    400004: AmericaSouth
+    400006: AmericaSouth.001
+    400008: AmericaSouth.002
+    400010: AmericaSouth.003
+    400012: AmericaSouth.004
+    400014: AmericaSouth.005
+    400016: AmericaSouth.006
+    400018: Circle
+    400020: //RootNode
+    400022: mesh_0
+    400024: mesh_0.001
+    400026: mesh_0.002
+    400028: mesh_0.003
+    400030: trtl_iris
+    2100000: No Name
+    2100002: Material.001
+    2300000: Africa
+    2300002: AmericaNorth
+    2300004: AmericaSouth
+    2300006: AmericaSouth.001
+    2300008: AmericaSouth.002
+    2300010: AmericaSouth.003
+    2300012: AmericaSouth.004
+    2300014: AmericaSouth.005
+    2300016: AmericaSouth.006
+    2300018: Circle
+    2300020: mesh_0
+    2300022: mesh_0.001
+    2300024: mesh_0.002
+    2300026: mesh_0.003
+    2300028: trtl_iris
+    3300000: Africa
+    3300002: AmericaNorth
+    3300004: AmericaSouth
+    3300006: AmericaSouth.001
+    3300008: AmericaSouth.002
+    3300010: AmericaSouth.003
+    3300012: AmericaSouth.004
+    3300014: AmericaSouth.005
+    3300016: AmericaSouth.006
+    3300018: Circle
+    3300020: mesh_0
+    3300022: mesh_0.001
+    3300024: mesh_0.002
+    3300026: mesh_0.003
+    3300028: trtl_iris
+    4300000: AmericaSouth.006
+    4300002: AmericaSouth.002
+    4300004: trtl_iris
+    4300006: mesh_0.003
+    4300008: mesh_0.002
+    4300010: mesh_0.001
+    4300012: mesh_0
+    4300014: Circle
+    4300016: AmericaSouth.005
+    4300018: AmericaSouth.004
+    4300020: AmericaSouth.003
+    4300022: AmericaSouth.001
+    4300024: AmericaNorth
+    4300026: AmericaSouth
+    4300028: Africa
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
