@@ -100,21 +100,21 @@ public class PopUp : MonoBehaviour {
             return;
         }
         if (i == 1) {
-            GameObject Clone = Instantiate(FPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            GameObject Clone = Instantiate(FPopUp, Country[E].transform.position,  Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
             Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
         if (i == 2) {
-            GameObject Clone = Instantiate(RPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            GameObject Clone = Instantiate(RPopUp, Country[E].transform.position,  Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
             Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
         if (i == 3) {
-            GameObject Clone = Instantiate(MPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            GameObject Clone = Instantiate(MPopUp, Country[E].transform.position,  Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
             Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;

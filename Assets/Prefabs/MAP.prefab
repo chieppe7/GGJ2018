@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 114343680510464874}
   m_Layer: 0
   m_Name: MAP
-  m_TagString: Untagged
+  m_TagString: PopUpManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2225,9 +2225,9 @@ MonoBehaviour:
   - {fileID: 114522139111895704}
   - {fileID: 114768340166393426}
   MA: {fileID: 0}
-  NPopUp: {fileID: 1243536324827784, guid: bbf1990395998cb43a2c125f30fb49b1, type: 2}
-  FPopUp: {fileID: 1243536324827784, guid: bbf1990395998cb43a2c125f30fb49b1, type: 2}
-  RPopUp: {fileID: 1243536324827784, guid: bbf1990395998cb43a2c125f30fb49b1, type: 2}
+  NPopUp: {fileID: 1981124056329486, guid: 5fb8a0eb6adc5764fbee527212e7c57a, type: 2}
+  FPopUp: {fileID: 1416640464214134, guid: faa1992a14e6f4c48b38bf3da9313247, type: 2}
+  RPopUp: {fileID: 1987902045275440, guid: efc1812992202ec428130192d87eea1e, type: 2}
   MPopUp: {fileID: 1243536324827784, guid: bbf1990395998cb43a2c125f30fb49b1, type: 2}
 --- !u!114 &114419479975211806
 MonoBehaviour:

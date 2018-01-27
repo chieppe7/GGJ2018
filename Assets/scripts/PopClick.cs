@@ -9,9 +9,9 @@ public class PopClick : MonoBehaviour {
 
     private CountryAtributtes CA;
 
-    private void Awake() {
+    private void Start() {
         PU = GameObject.FindGameObjectWithTag("PopUpManager").GetComponent<PopUp>();
-        CA = this.transform.parent.GetComponent<CountryAtributtes>();
+        CA = transform.parent.gameObject.GetComponent<CountryAtributtes>();
         StartCoroutine(selfDestruct());
     }
 
