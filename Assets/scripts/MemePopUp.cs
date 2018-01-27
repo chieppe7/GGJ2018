@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MemePopUp : MonoBehaviour {
 
     public Image meme;
-    public Image close;
+    public Button close;
 
 	// Use this for initialization
 	void Start () {
@@ -14,11 +14,17 @@ public class MemePopUp : MonoBehaviour {
         close.enabled = false;
 	}
 
+    void Update()
+    {
+        close.image.enabled = close.enabled;
+
+    }
+
     public void MemeActive() {
         Debug.Log("Active");
         meme.enabled = true;
         close.enabled = true;
-        close.rectTransform.position = new Vector3(Random.Range(-6f,6f),Random.Range(-2.5f,2.5f),close.rectTransform.position.z);
+        close.transform.localPosition = new Vector3(Random.Range(-344f,344f),Random.Range(-144.5f,144.5f),close.transform.position.z);
     }
 
     public void MemeDeactive() {
