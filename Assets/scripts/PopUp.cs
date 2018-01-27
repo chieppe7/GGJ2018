@@ -80,23 +80,41 @@ public class PopUp : MonoBehaviour {
 
     void InstatiatePopUp(int i) {
         int E;
+        int b=0;
         do {
-           E = Random.Range(0, Country.Length);
-        } while (!Country[E].infec && !Country[E].HasPopUp);
+            b++;
+            if (b > 50) {
+                Natual = 0;
+                Fatual = 0;
+                Ratual = 0;
+                Matual = 0;
+                return;
+            }
+            //E = Random.Range(0, Country.Length);
+            E = 0;
+        } while (!Country[E].infec || Country[E].HasPopUp);
         if (i == 0) {
             GameObject Clone = Instantiate(NPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            Clone.transform.SetParent(Country[E].transform);
+            Country[E].HasPopUp = true;
             return;
         }
         if (i == 1) {
             GameObject Clone = Instantiate(FPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            Clone.transform.SetParent(Country[E].transform);
+            Country[E].HasPopUp = true;
             return;
         }
         if (i == 2) {
             GameObject Clone = Instantiate(RPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            Clone.transform.SetParent(Country[E].transform);
+            Country[E].HasPopUp = true;
             return;
         }
         if (i == 3) {
             GameObject Clone = Instantiate(MPopUp, Country[E].transform.position, Country[E].transform.rotation);
+            Clone.transform.SetParent(Country[E].transform);
+            Country[E].HasPopUp = true;
             return;
         }
     }
