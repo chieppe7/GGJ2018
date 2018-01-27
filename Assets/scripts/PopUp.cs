@@ -90,30 +90,33 @@ public class PopUp : MonoBehaviour {
                 Matual = 0;
                 return;
             }
-            //E = Random.Range(0, Country.Length);
-            E = 0;
+            E = Random.Range(0, Country.Length);
         } while (!Country[E].infec || Country[E].HasPopUp);
         if (i == 0) {
             GameObject Clone = Instantiate(NPopUp, Country[E].transform.position, Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
+            Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
         if (i == 1) {
             GameObject Clone = Instantiate(FPopUp, Country[E].transform.position, Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
+            Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
         if (i == 2) {
             GameObject Clone = Instantiate(RPopUp, Country[E].transform.position, Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
+            Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
         if (i == 3) {
             GameObject Clone = Instantiate(MPopUp, Country[E].transform.position, Country[E].transform.rotation);
             Clone.transform.SetParent(Country[E].transform);
+            Clone.transform.position = new Vector3(Clone.transform.parent.position.x,0.5f, Clone.transform.parent.position.z);
             Country[E].HasPopUp = true;
             return;
         }
