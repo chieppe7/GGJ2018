@@ -19,7 +19,7 @@ public class HumorController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	public void Start () {
+	public void Initialize () {
 
 		if (plus)
 			meme.GetComponent<MemeAtributtes> ().humor += levelPlus;

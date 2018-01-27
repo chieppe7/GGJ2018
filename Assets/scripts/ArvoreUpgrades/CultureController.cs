@@ -20,7 +20,7 @@ public class CultureController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	public void Start () {
+	public void Initialize () {
 
 		if (plus)
 			meme.GetComponent<MemeAtributtes> ().culture += levelPlus;
