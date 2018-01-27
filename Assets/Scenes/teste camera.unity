@@ -227,17 +227,7 @@ Prefab:
       propertyPath: infec
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114462630518439646, guid: c4069d85640e47f4c984c2e7120c9c0e,
-        type: 2}
-      propertyPath: infec
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114029456431277698, guid: c4069d85640e47f4c984c2e7120c9c0e,
-        type: 2}
-      propertyPath: infec
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916929371104042, guid: c4069d85640e47f4c984c2e7120c9c0e,
+    - target: {fileID: 114431290334866972, guid: c4069d85640e47f4c984c2e7120c9c0e,
         type: 2}
       propertyPath: infec
       value: 0
@@ -247,10 +237,24 @@ Prefab:
       propertyPath: infec
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114431290334866972, guid: c4069d85640e47f4c984c2e7120c9c0e,
+    - target: {fileID: 114916929371104042, guid: c4069d85640e47f4c984c2e7120c9c0e,
         type: 2}
       propertyPath: infec
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114029456431277698, guid: c4069d85640e47f4c984c2e7120c9c0e,
+        type: 2}
+      propertyPath: infec
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462630518439646, guid: c4069d85640e47f4c984c2e7120c9c0e,
+        type: 2}
+      propertyPath: infec
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260284284857520, guid: c4069d85640e47f4c984c2e7120c9c0e, type: 2}
+      propertyPath: m_TagString
+      value: PopUpManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c4069d85640e47f4c984c2e7120c9c0e, type: 2}
@@ -345,6 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1904176958}
   - component: {fileID: 1904176957}
+  - component: {fileID: 1904176959}
   m_Layer: 0
   m_Name: Meme
   m_TagString: Untagged
@@ -381,3 +386,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904176959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1904176956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d3f88d4b9ec1b40b5690170d8b2b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
