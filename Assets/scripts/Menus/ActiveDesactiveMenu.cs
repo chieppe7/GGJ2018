@@ -16,7 +16,7 @@ public class ActiveDesactiveMenu : MonoBehaviour {
 
         menu.active = !menu.active;
 
-        gameObject.active = menu.active;
+        //gameObject.active = menu.active;
 
 
     }
