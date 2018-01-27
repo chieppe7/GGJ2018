@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
 
 	IEnumerator wait(){
 
-		yield return WaitForSeconds (timeNototiety);
+		yield return new WaitForSeconds (timeNototiety);
 
 			StartCoroutine("wait");
 	}
