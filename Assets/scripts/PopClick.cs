@@ -6,10 +6,14 @@ public class PopClick : MonoBehaviour {
 
     public int PopType;
     private PopUp PU;
+    private MemeCurrency MC;
+    private MemePopUp MP;
 
     private CountryAtributtes CA;
 
     private void Start() {
+        MP = GameObject.FindGameObjectWithTag("Canvas").GetComponent<MemePopUp>();
+        MC = GameObject.FindGameObjectWithTag("Player").GetComponent<MemeCurrency>();
         PU = GameObject.FindGameObjectWithTag("PopUpManager").GetComponent<PopUp>();
         CA = transform.parent.gameObject.GetComponent<CountryAtributtes>();
         StartCoroutine(selfDestruct());
@@ -22,13 +26,13 @@ public class PopClick : MonoBehaviour {
 
     void die() {
         if (PopType == 0 && CA.prov == ("9gag")) {
-            //perde pontos
+            MC.Currency -= 20;
         }
         if (PopType == 1 && CA.prov == ("4chan")) {
-            //perde pontos
+            MC.Currency -= 20;
         }
         if (PopType == 2 && CA.prov == ("reddit")) {
-            //perde pontos
+            MC.Currency -= 20;
         }
         CA.HasPopUp = false;
         Destroy(this.gameObject);
@@ -37,18 +41,27 @@ public class PopClick : MonoBehaviour {
     public void Detonate() {
         if (PopType == 0) {
             PU.Nup(10);
-            //if major bonus coins else more cure
+            if(CA.prov=="9gag")
+                MC.Currency += 10;
+            else
+                MC.Currency -= 20;
         }
         if (PopType == 1) {
             PU.Fup(10);
-            //if major bonus coins else more cure
+            if(CA.prov=="4chan")
+                MC.Currency += 10;
+            else
+                MC.Currency -= 20;
         }
         if (PopType == 2) {
             PU.Rup(10);
-            //if major bonus coins else more cure
+            if(CA.prov=="reddit")
+                MC.Currency += 10;
+            else
+                MC.Currency -= 20;
         }
         if (PopType == 3) {
-            //abre janela meme
+            MP.MemeActive();
         }
         CA.HasPopUp = false;
         Destroy(this.gameObject);
