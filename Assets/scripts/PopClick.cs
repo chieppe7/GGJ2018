@@ -5,6 +5,7 @@ using UnityEngine;
 public class PopClick : MonoBehaviour {
 
     public int PopType;
+    private GameManager GM;
     private PopUp PU;
     private MemeCurrency MC;
     private MemePopUp MP;
@@ -12,6 +13,7 @@ public class PopClick : MonoBehaviour {
     private CountryAtributtes CA;
 
     private void Start() {
+        GM = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         MP = GameObject.FindGameObjectWithTag("Canvas").GetComponent<MemePopUp>();
         MC = GameObject.FindGameObjectWithTag("Player").GetComponent<MemeCurrency>();
         PU = GameObject.FindGameObjectWithTag("PopUpManager").GetComponent<PopUp>();
@@ -41,24 +43,24 @@ public class PopClick : MonoBehaviour {
     public void Detonate() {
         if (PopType == 0) {
             PU.Nup(10);
-            if(CA.prov=="9gag")
+            if (CA.prov == "9gag")
                 MC.Currency += 10;
             else
-                MC.Currency -= 20;
+                GM.notoriety += 1;
         }
         if (PopType == 1) {
             PU.Fup(10);
             if(CA.prov=="4chan")
                 MC.Currency += 10;
             else
-                MC.Currency -= 20;
+                GM.notoriety += 1;
         }
         if (PopType == 2) {
             PU.Rup(10);
             if(CA.prov=="reddit")
                 MC.Currency += 10;
             else
-                MC.Currency -= 20;
+                GM.notoriety += 1;
         }
         if (PopType == 3) {
             MP.MemeActive();
