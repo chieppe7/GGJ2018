@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject meme;
 
 	public int notoriety;
+	public float timeNototiety;
 
 	// Use this for initialization
 	void Awake () {
@@ -23,5 +24,12 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	IEnumerator wait(){
+
+		yield return WaitForSeconds (timeNototiety);
+
+			StartCoroutine("wait");
 	}
 }

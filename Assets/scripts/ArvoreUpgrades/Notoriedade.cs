@@ -17,7 +17,7 @@ public class Notoriedade : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Start () {
+	public void Start () {
 
 		meme.GetComponent<MemeAtributtes> ().atk += atk;
 		manager.notoriety += notoriety;
