@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b6e032f62d55f40b6e090b96f57ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PopType: 0
+  PopType: 2
 --- !u!222 &222649232436935484
 CanvasRenderer:
   m_ObjectHideFlags: 1
