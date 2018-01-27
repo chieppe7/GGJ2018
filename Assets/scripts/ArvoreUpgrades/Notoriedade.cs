@@ -35,10 +35,10 @@ public class Notoriedade : MonoBehaviour {
 
     void Update()
     {
-
+        int j =0;
         for (int i = 0; i < depend.Length; i++) {
 
-            int j =0;
+            
 
             if (depend[i].GetComponent<Notoriedade>().isOn)
             {
