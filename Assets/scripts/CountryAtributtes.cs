@@ -14,6 +14,7 @@ public class CountryAtributtes : MonoBehaviour {
 	public int humor;
 	public string prov;
 	public int percentInfec;
+    public bool HasPopUp = false; //se ja tiver, nao pode ter dois
 
 	// Use this for initialization
 	void Start () {
