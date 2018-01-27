@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 114571043749217514}
   m_Layer: 0
   m_Name: MapaAtualizado
-  m_TagString: Untagged
+  m_TagString: PopUpManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2561,6 +2561,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114063474789979540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2583,6 +2586,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114070058407685592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2605,6 +2611,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114093773513537550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2627,6 +2636,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114129528007181632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2649,6 +2661,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114201311976915518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2671,6 +2686,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114209356880993090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2693,6 +2711,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114243899237148522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2715,6 +2736,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114473552232962104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2737,6 +2761,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114485729375341214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2759,6 +2786,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114521003562754830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2781,6 +2811,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114522029369337614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2803,6 +2836,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114525344623427920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2825,6 +2861,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114571043749217514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2897,6 +2936,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114603736357553026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2919,6 +2961,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114612363181754084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2941,6 +2986,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114698502805168186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2963,6 +3011,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114701094481621576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2985,6 +3036,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114772329196838598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3007,6 +3061,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114776349104483988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3029,6 +3086,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114792007838303204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3051,6 +3111,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114805375168828628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3073,6 +3136,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114814259513384918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3095,6 +3161,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114820671452138336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3117,6 +3186,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114850152484046778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3139,6 +3211,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114885370624665214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3161,6 +3236,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114886742711828910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3183,6 +3261,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114891967108670602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3205,6 +3286,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114901420203343220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3227,6 +3311,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114912199039304270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3249,6 +3336,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114926756275557124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3271,6 +3361,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114946973116164380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3293,6 +3386,9 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
 --- !u!114 &114960946150289240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3315,3 +3411,6 @@ MonoBehaviour:
   prov: 
   percentInfec: 0
   HasPopUp: 0
+  memeIsHere: 0
+  rnd: 0
+  manager: {fileID: 0}
