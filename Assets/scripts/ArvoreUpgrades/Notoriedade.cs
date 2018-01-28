@@ -14,6 +14,8 @@ public class Notoriedade : MonoBehaviour {
 
     public bool isOn;
     public Button[] depend;
+    public Text lblPrice;
+    public float price;
 
 	// Use this for initialization
 	void Awake () {
@@ -35,6 +37,8 @@ public class Notoriedade : MonoBehaviour {
 
     void Update()
     {
+        price = float.Parse(lblPrice.text);
+
         int j =0;
         for (int i = 0; i < depend.Length; i++) {
 

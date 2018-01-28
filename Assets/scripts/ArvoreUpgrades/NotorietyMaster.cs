@@ -8,11 +8,13 @@ public class NotorietyMaster : MonoBehaviour {
     public GameManager manager;
     GameObject meme;
 
-    public int atk;
     public int notoriety;
 
     public bool isOn;
     public Button[] depend;
+
+    public Text lblPrice;
+    public float price;
 
     // Use this for initialization
     void Awake()
@@ -36,6 +38,9 @@ public class NotorietyMaster : MonoBehaviour {
 
     void Update()
     {
+
+        price = float.Parse(lblPrice.text);
+
         int j = 0;
         for (int i = 0; i < depend.Length; i++)
         {

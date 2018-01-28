@@ -13,8 +13,17 @@ public class ChanceColorMap : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        if (countrys.Length > colors.Length)
+        {
+            unity = countrys.Length / colors.Length;
+            //print(gameObject.name+ "uhbnjk");
+        }
+        else
+        {
+            unity = 1;
+            //print(gameObject.name);
+        }
 
-        unity = countrys.Length / colors.Length;
     }
 
     // Update is called once per frame
@@ -34,8 +43,13 @@ public class ChanceColorMap : MonoBehaviour
 
         infecLevel = infecContrys / unity;
 
-        gameObject.GetComponent<Renderer>().material = colors[(int)infecLevel];
-            
-        }
+        if((int)infecLevel < 4)
+            gameObject.GetComponent<Renderer>().material = colors[(int)infecLevel];
+        else
+            gameObject.GetComponent<Renderer>().material = colors[4];
+
+
+
     }
+}
 

@@ -32,6 +32,9 @@ public class EnemyController : MonoBehaviour {
         }
 
         LBLnotoriety.text = notoriety.ToString();
+
+        if (notoriety > 99)
+            notoriety = 100;
 		
 	}
 	

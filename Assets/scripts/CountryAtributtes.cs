@@ -13,11 +13,11 @@ public class CountryAtributtes : MonoBehaviour {
 	public int culture;
 	public int humor;
 	public string prov;
-	public int percentInfec;
+	public float percentInfec;
     public bool HasPopUp = false; //se ja tiver, nao pode ter dois
     public bool memeIsHere;
 
-    public int rnd;
+    int rnd;
     bool stop;
 
     public GameManager manager;
@@ -53,14 +53,21 @@ public class CountryAtributtes : MonoBehaviour {
             StartCoroutine("wait");
             stop = true;
         }
+
+        if (percentInfec > 99)
+            percentInfec = 100;
 		
 	}
 
     IEnumerator wait()
     {
 
-        yield return new WaitForSeconds(60f - manager.meme.GetComponent<MemeAtributtes>().atk);
-        percentInfec++;
+        // yield return new WaitForSeconds(100f - manager.meme.GetComponent<MemeAtributtes>().atk);
+        // percentInfec++;
+        // StartCoroutine("wait");
+
+        yield return new WaitForSeconds(2f);
+        percentInfec += manager.meme.GetComponent<MemeAtributtes>().atk / 40;
         StartCoroutine("wait");
     }
 }
