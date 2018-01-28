@@ -1,0 +1,25 @@
+private int Cp=1;
+private int Cm=1;
+private int Hp=1;
+private int Hm=1;
+
+public void Cup() {
+	//aumenta a cultura;
+	if(Cp<8)
+		Cp*=2;
+}
+public void Cdown() {
+	//Diminui a cultura;
+	if(Cm<8)
+		Cm*=2;
+}
+public void Hup() {
+	//aumenta a humor;
+	if(Hp<8)
+		Hp*=2;
+}
+public void Hdown() {
+	//Diminui humor;
+	if(Hm<8)
+		Hm*=2;
+}
