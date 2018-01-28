@@ -28,6 +28,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1035619993748276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4004946614400360}
+  - component: {fileID: 20164353083979136}
+  - component: {fileID: 45271457055183376}
+  m_Layer: 0
+  m_Name: Water4AdvancedReflectionSceneCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1037051058541640
 GameObject:
   m_ObjectHideFlags: 1
@@ -292,6 +309,7 @@ GameObject:
   - component: {fileID: 4025216729112648}
   - component: {fileID: 33356081828407488}
   - component: {fileID: 23368929191645222}
+  - component: {fileID: 114897696704361938}
   m_Layer: 0
   m_Name: Africa
   m_TagString: Untagged
@@ -360,6 +378,7 @@ GameObject:
   - component: {fileID: 4701947221263456}
   - component: {fileID: 33788587544327890}
   - component: {fileID: 23684654619588480}
+  - component: {fileID: 114114806917106202}
   m_Layer: 0
   m_Name: AmericaNorth
   m_TagString: Untagged
@@ -598,6 +617,7 @@ GameObject:
   - component: {fileID: 4158636554866868}
   - component: {fileID: 33739789330253382}
   - component: {fileID: 23947212563210466}
+  - component: {fileID: 114709343751252486}
   m_Layer: 0
   m_Name: Eurasia
   m_TagString: Untagged
@@ -666,6 +686,7 @@ GameObject:
   - component: {fileID: 4358625067619866}
   - component: {fileID: 33043232703070086}
   - component: {fileID: 23969824642184946}
+  - component: {fileID: 114552519508945476}
   m_Layer: 0
   m_Name: AmericaSouth
   m_TagString: Untagged
@@ -700,6 +721,7 @@ GameObject:
   - component: {fileID: 4253649339563554}
   - component: {fileID: 33141853340845892}
   - component: {fileID: 23619423467339460}
+  - component: {fileID: 114736298406258934}
   m_Layer: 0
   m_Name: Outback
   m_TagString: Untagged
@@ -843,6 +865,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4004946614400360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035619993748276}
+  m_LocalRotation: {x: -0.020955605, y: -0.88866824, z: -0.4562494, w: 0.040818274}
+  m_LocalPosition: {x: -361.77878, y: -370.5845, z: 69.94957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4906824559991830}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4025216729112648
 Transform:
   m_ObjectHideFlags: 1
@@ -901,7 +936,7 @@ Transform:
   m_LocalScale: {x: 0.0100000575, y: 0.01000005, z: 0.00999984}
   m_Children: []
   m_Father: {fileID: 4701947221263456}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4049876693944112
 Transform:
@@ -1086,7 +1121,7 @@ Transform:
   m_LocalScale: {x: 0.0100000575, y: 0.01000005, z: 0.00999984}
   m_Children: []
   m_Father: {fileID: 4701947221263456}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4274049517267168
 Transform:
@@ -1274,8 +1309,8 @@ Transform:
   - {fileID: 4796359989001216}
   - {fileID: 4727087089086908}
   - {fileID: 4932078299694700}
-  - {fileID: 4258363800452976}
   - {fileID: 4047913586672104}
+  - {fileID: 4258363800452976}
   - {fileID: 4183414322356090}
   - {fileID: 4049876693944112}
   - {fileID: 4274049517267168}
@@ -1447,6 +1482,7 @@ Transform:
   - {fileID: 4424749636757270}
   - {fileID: 4100630123967944}
   - {fileID: 4903393289748408}
+  - {fileID: 4004946614400360}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1528,6 +1564,42 @@ Transform:
   m_Father: {fileID: 4043507216769288}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20164353083979136
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035619993748276}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!23 &23175809353871838
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -1814,7 +1886,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2506abd4854c70e44931e15cde957270, type: 2}
+  - {fileID: 2100000, guid: cc9457573b84ead4386d8d6aa58d99c5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2143,6 +2215,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572611580844078}
   m_Mesh: {fileID: 4300002, guid: b6f95bd0bde11a24d84ebeaba4a20ad3, type: 3}
+--- !u!45 &45271457055183376
+Skybox:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035619993748276}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!65 &65007173892877398
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2551,9 +2631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 23
   tong: 
-  border: 
+  border: 180000001600000019000000
   infec: 0
   type: 
   culture: 0
@@ -2562,7 +2642,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114063474789979540
 MonoBehaviour:
@@ -2576,9 +2655,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 19
   tong: 
-  border: 
+  border: 1400000015000000
   infec: 0
   type: 
   culture: 0
@@ -2587,7 +2666,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114070058407685592
 MonoBehaviour:
@@ -2601,7 +2679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 33
   tong: 
   border: 
   infec: 0
@@ -2612,7 +2690,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114093773513537550
 MonoBehaviour:
@@ -2626,9 +2703,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 13
   tong: 
-  border: 
+  border: 0c000000
   infec: 0
   type: 
   culture: 0
@@ -2637,8 +2714,34 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
+--- !u!114 &114114806917106202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392088070024938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3cadfb9c83e42479e22c02d7f6b4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countrys:
+  - {fileID: 1360926443024346}
+  - {fileID: 1548179724837626}
+  - {fileID: 1086934738654846}
+  - {fileID: 1002882539543836}
+  - {fileID: 1555557190856758}
+  - {fileID: 1544074692195768}
+  - {fileID: 1649515933663864}
+  colors:
+  - {fileID: 2100000, guid: df70cd023b57dd44598f388e0fb2a610, type: 2}
+  - {fileID: 2100000, guid: 5ac6e3fdc7b559b4392b8fdd856cbeca, type: 2}
+  - {fileID: 2100000, guid: 0ddd9c0a79b62e447b4b55fc8c93fcb4, type: 2}
+  - {fileID: 2100000, guid: 16aa7b2f2ccdcab458333f957fb33939, type: 2}
+  - {fileID: 2100000, guid: a7394507f59ed0a4d86f7124949b9862, type: 2}
+  unity: 0
+  infecLevel: 0
 --- !u!114 &114129528007181632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2651,9 +2754,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 15
   tong: 
-  border: 
+  border: 100000001100000012000000
   infec: 0
   type: 
   culture: 0
@@ -2662,7 +2765,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114201311976915518
 MonoBehaviour:
@@ -2676,10 +2778,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 3
   tong: 
-  border: 
-  infec: 1
+  border: 010000000200000005000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -2687,7 +2789,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114209356880993090
 MonoBehaviour:
@@ -2701,10 +2802,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 6
   tong: 
-  border: 
-  infec: 1
+  border: 01000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -2712,7 +2813,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114243899237148522
 MonoBehaviour:
@@ -2726,10 +2826,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 5
   tong: 
-  border: 
-  infec: 1
+  border: 0400000003000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -2737,7 +2837,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114473552232962104
 MonoBehaviour:
@@ -2751,10 +2850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 1
   tong: 
-  border: 
-  infec: 1
+  border: 060000000200000003000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -2762,7 +2861,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114485729375341214
 MonoBehaviour:
@@ -2776,10 +2874,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 2
   tong: 
-  border: 
-  infec: 1
+  border: 010000000200000004000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -2787,7 +2885,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114521003562754830
 MonoBehaviour:
@@ -2801,9 +2898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 9
   tong: 
-  border: 
+  border: 07000000080000000e000000
   infec: 0
   type: 
   culture: 0
@@ -2812,7 +2909,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114522029369337614
 MonoBehaviour:
@@ -2826,9 +2922,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 18
   tong: 
-  border: 
+  border: 0f0000001100000007000000
   infec: 0
   type: 
   culture: 0
@@ -2837,7 +2933,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114525344623427920
 MonoBehaviour:
@@ -2851,9 +2946,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 20
   tong: 
-  border: 
+  border: 13000000150000001b000000
   infec: 0
   type: 
   culture: 0
@@ -2862,8 +2957,31 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
+--- !u!114 &114552519508945476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693033293113442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3cadfb9c83e42479e22c02d7f6b4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countrys:
+  - {fileID: 1936831091163000}
+  - {fileID: 1103431963255180}
+  - {fileID: 1307987585416484}
+  - {fileID: 1114361869352496}
+  colors:
+  - {fileID: 2100000, guid: df70cd023b57dd44598f388e0fb2a610, type: 2}
+  - {fileID: 2100000, guid: 5ac6e3fdc7b559b4392b8fdd856cbeca, type: 2}
+  - {fileID: 2100000, guid: 0ddd9c0a79b62e447b4b55fc8c93fcb4, type: 2}
+  - {fileID: 2100000, guid: 16aa7b2f2ccdcab458333f957fb33939, type: 2}
+  - {fileID: 2100000, guid: a7394507f59ed0a4d86f7124949b9862, type: 2}
+  unity: 0
+  infecLevel: 0
 --- !u!114 &114571043749217514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2913,7 +3031,7 @@ MonoBehaviour:
   NPopUp: {fileID: 1981124056329486, guid: 5fb8a0eb6adc5764fbee527212e7c57a, type: 2}
   FPopUp: {fileID: 1416640464214134, guid: faa1992a14e6f4c48b38bf3da9313247, type: 2}
   RPopUp: {fileID: 1987902045275440, guid: efc1812992202ec428130192d87eea1e, type: 2}
-  MPopUp: {fileID: 1243536324827784, guid: bbf1990395998cb43a2c125f30fb49b1, type: 2}
+  MPopUp: {fileID: 1981586790811898, guid: fd1a904c5da025e4c886bdb634a4abb7, type: 2}
 --- !u!114 &114585813996939780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2926,9 +3044,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 25
   tong: 
-  border: 
+  border: 1a000000
   infec: 0
   type: 
   culture: 0
@@ -2937,7 +3055,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114603736357553026
 MonoBehaviour:
@@ -2951,9 +3068,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 16
   tong: 
-  border: 
+  border: 0f00000011000000
   infec: 0
   type: 
   culture: 0
@@ -2962,7 +3079,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114612363181754084
 MonoBehaviour:
@@ -2976,9 +3092,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 24
   tong: 
-  border: 
+  border: 17000000
   infec: 0
   type: 
   culture: 0
@@ -2987,7 +3103,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114698502805168186
 MonoBehaviour:
@@ -3001,7 +3116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 10
   tong: 
   border: 
   infec: 0
@@ -3012,7 +3127,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114701094481621576
 MonoBehaviour:
@@ -3026,9 +3140,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 27
   tong: 
-  border: 
+  border: 1a0000001c00000020000000
   infec: 0
   type: 
   culture: 0
@@ -3037,8 +3151,64 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
+--- !u!114 &114709343751252486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622769494539610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3cadfb9c83e42479e22c02d7f6b4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countrys:
+  - {fileID: 1125650149175362}
+  - {fileID: 1131978029816278}
+  - {fileID: 1622608092599662}
+  - {fileID: 1037051058541640}
+  - {fileID: 1244080562017528}
+  - {fileID: 1308578146971012}
+  - {fileID: 1784467067964318}
+  - {fileID: 1569706630713490}
+  - {fileID: 1506523273627722}
+  - {fileID: 1038454040638222}
+  - {fileID: 1226539704278256}
+  - {fileID: 1649700379585380}
+  - {fileID: 1214912034123002}
+  colors:
+  - {fileID: 2100000, guid: df70cd023b57dd44598f388e0fb2a610, type: 2}
+  - {fileID: 2100000, guid: 5ac6e3fdc7b559b4392b8fdd856cbeca, type: 2}
+  - {fileID: 2100000, guid: 0ddd9c0a79b62e447b4b55fc8c93fcb4, type: 2}
+  - {fileID: 2100000, guid: 16aa7b2f2ccdcab458333f957fb33939, type: 2}
+  - {fileID: 2100000, guid: a7394507f59ed0a4d86f7124949b9862, type: 2}
+  unity: 0
+  infecLevel: 0
+--- !u!114 &114736298406258934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716678915024014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3cadfb9c83e42479e22c02d7f6b4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countrys:
+  - {fileID: 1453217153978994}
+  - {fileID: 1074512924247848}
+  - {fileID: 1453217153978994}
+  - {fileID: 1074512924247848}
+  colors:
+  - {fileID: 2100000, guid: df70cd023b57dd44598f388e0fb2a610, type: 2}
+  - {fileID: 2100000, guid: 5ac6e3fdc7b559b4392b8fdd856cbeca, type: 2}
+  - {fileID: 2100000, guid: 0ddd9c0a79b62e447b4b55fc8c93fcb4, type: 2}
+  - {fileID: 2100000, guid: 16aa7b2f2ccdcab458333f957fb33939, type: 2}
+  - {fileID: 2100000, guid: a7394507f59ed0a4d86f7124949b9862, type: 2}
+  unity: 0
+  infecLevel: 0
 --- !u!114 &114772329196838598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3051,10 +3221,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 4
   tong: 
-  border: 
-  infec: 1
+  border: 0500000002000000
+  infec: 0
   type: 
   culture: 0
   humor: 0
@@ -3062,7 +3232,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114776349104483988
 MonoBehaviour:
@@ -3076,9 +3245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 31
   tong: 
-  border: 
+  border: 1e000000
   infec: 0
   type: 
   culture: 0
@@ -3087,7 +3256,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114792007838303204
 MonoBehaviour:
@@ -3101,9 +3269,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 32
   tong: 
-  border: 
+  border: 16000000150000001b000000
   infec: 0
   type: 
   culture: 0
@@ -3112,7 +3280,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114805375168828628
 MonoBehaviour:
@@ -3126,9 +3293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 12
   tong: 
-  border: 
+  border: 0b000000
   infec: 0
   type: 
   culture: 0
@@ -3137,7 +3304,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114814259513384918
 MonoBehaviour:
@@ -3151,9 +3317,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 30
   tong: 
-  border: 
+  border: 1f000000
   infec: 0
   type: 
   culture: 0
@@ -3162,7 +3328,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114820671452138336
 MonoBehaviour:
@@ -3176,9 +3341,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 21
   tong: 
-  border: 
+  border: 130000001400000020000000
   infec: 0
   type: 
   culture: 0
@@ -3187,7 +3352,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114850152484046778
 MonoBehaviour:
@@ -3201,9 +3365,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 28
   tong: 
-  border: 
+  border: 1b000000
   infec: 0
   type: 
   culture: 0
@@ -3212,7 +3376,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114885370624665214
 MonoBehaviour:
@@ -3226,9 +3389,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 11
   tong: 
-  border: 
+  border: 080000000e0000000c000000
   infec: 0
   type: 
   culture: 0
@@ -3237,7 +3400,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114886742711828910
 MonoBehaviour:
@@ -3251,9 +3413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 26
   tong: 
-  border: 
+  border: 190000001b0000001d00000017000000
   infec: 0
   type: 
   culture: 0
@@ -3262,7 +3424,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114891967108670602
 MonoBehaviour:
@@ -3276,9 +3437,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 14
   tong: 
-  border: 
+  border: 0b000000
   infec: 0
   type: 
   culture: 0
@@ -3287,8 +3448,33 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
+--- !u!114 &114897696704361938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270789939618524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3cadfb9c83e42479e22c02d7f6b4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countrys:
+  - {fileID: 1765187032121022}
+  - {fileID: 1765187032121022}
+  - {fileID: 1930338865082148}
+  - {fileID: 1406432547085548}
+  - {fileID: 1725206111593404}
+  - {fileID: 1560258013950566}
+  colors:
+  - {fileID: 2100000, guid: df70cd023b57dd44598f388e0fb2a610, type: 2}
+  - {fileID: 2100000, guid: 5ac6e3fdc7b559b4392b8fdd856cbeca, type: 2}
+  - {fileID: 2100000, guid: 0ddd9c0a79b62e447b4b55fc8c93fcb4, type: 2}
+  - {fileID: 2100000, guid: 16aa7b2f2ccdcab458333f957fb33939, type: 2}
+  - {fileID: 2100000, guid: a7394507f59ed0a4d86f7124949b9862, type: 2}
+  unity: 0
+  infecLevel: 0
 --- !u!114 &114901420203343220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3301,9 +3487,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 7
   tong: 
-  border: 
+  border: 0800000009000000
   infec: 0
   type: 
   culture: 0
@@ -3312,7 +3498,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114912199039304270
 MonoBehaviour:
@@ -3326,9 +3511,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 8
   tong: 
-  border: 
+  border: 07000000090000000b0000000c000000
   infec: 0
   type: 
   culture: 0
@@ -3337,7 +3522,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114926756275557124
 MonoBehaviour:
@@ -3351,9 +3535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 29
   tong: 
-  border: 
+  border: 1a000000
   infec: 0
   type: 
   culture: 0
@@ -3362,7 +3546,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114946973116164380
 MonoBehaviour:
@@ -3376,9 +3559,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 17
   tong: 
-  border: 
+  border: 0f00000010000000
   infec: 0
   type: 
   culture: 0
@@ -3387,7 +3570,6 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
 --- !u!114 &114960946150289240
 MonoBehaviour:
@@ -3401,9 +3583,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   def: 0
-  num: 0
+  num: 22
   tong: 
-  border: 
+  border: 20000000170000001a000000
   infec: 0
   type: 
   culture: 0
@@ -3412,5 +3594,4 @@ MonoBehaviour:
   percentInfec: 0
   HasPopUp: 0
   memeIsHere: 0
-  rnd: 0
   manager: {fileID: 0}
