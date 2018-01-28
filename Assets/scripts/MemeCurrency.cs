@@ -5,9 +5,21 @@ using UnityEngine;
 public class MemeCurrency : MonoBehaviour {
 
     public int Currency;
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void Start()
+    {
+        StartCoroutine(MoneyOverTime());
+    }
+
+    IEnumerator MoneyOverTime()
+    {
+        yield return new WaitForSeconds(3f);
+        Currency++;
+        StartCoroutine(MoneyOverTime());
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (Currency < 0)
             Currency = 0;
 	}

@@ -46,21 +46,30 @@ public class PopClick : MonoBehaviour {
             if (CA.prov == "9gag")
                 MC.Currency += 10;
             else
+            {
                 GM.notoriety += 1;
+                MC.Currency -= 3;
+            }
         }
         if (PopType == 1) {
             PU.Fup(10);
-            if(CA.prov=="4chan")
+            if (CA.prov == "4chan")
                 MC.Currency += 10;
             else
+            {
                 GM.notoriety += 1;
+                MC.Currency -= 3;
+            }
         }
         if (PopType == 2) {
             PU.Rup(10);
             if(CA.prov=="reddit")
                 MC.Currency += 10;
             else
+            {
                 GM.notoriety += 1;
+                MC.Currency -= 3;
+            }
         }
         if (PopType == 3) {
             MP.MemeActive();

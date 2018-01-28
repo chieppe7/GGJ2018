@@ -11,6 +11,7 @@ public class Notoriedade : MonoBehaviour {
 
 	public int atk;
 	public int notoriety;
+    private MemeCurrency MC;
 
     public bool isOn;
     public Button[] depend;
@@ -21,16 +22,23 @@ public class Notoriedade : MonoBehaviour {
 	void Awake () {
 
 		meme = manager.meme;
+        MC = meme.gameObject.GetComponent<MemeCurrency>();
 	}
 	
 	// Update is called once per frame
 	public void Initialize () {
 
+        if (MC.Currency < (int)price)
+            return;
+
+        MC.Currency -= (int)price;
 		meme.GetComponent<MemeAtributtes> ().atk += atk;
 		manager.notoriety += notoriety;
         manager.GetComponent<EnemyController>().go = true;
 
+        if(GetComponent<AudioSource>() != null)
         GetComponent<AudioSource>().Play();
+
         isOn = true;
         GetComponent<Image>().enabled = false;
     }

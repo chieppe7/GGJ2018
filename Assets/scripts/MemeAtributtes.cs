@@ -10,14 +10,4 @@ public class MemeAtributtes : MonoBehaviour {
 	public int culture;
 	public int humor;
 
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
