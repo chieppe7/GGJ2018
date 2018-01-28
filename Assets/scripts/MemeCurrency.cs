@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MemeCurrency : MonoBehaviour {
 
     public int Currency;
+    public Text dim;
 
     private void Start()
     {
@@ -22,5 +24,10 @@ public class MemeCurrency : MonoBehaviour {
     void Update () {
         if (Currency < 0)
             Currency = 0;
-	}
+
+        dim.text = Currency.ToString();
+
+    }
+
+
 }
