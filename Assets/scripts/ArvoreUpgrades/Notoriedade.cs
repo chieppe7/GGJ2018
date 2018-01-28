@@ -38,8 +38,6 @@ public class Notoriedade : MonoBehaviour {
         int j =0;
         for (int i = 0; i < depend.Length; i++) {
 
-            
-
             if (depend[i].GetComponent<Notoriedade>().isOn)
             {
                 j++;
